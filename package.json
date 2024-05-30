@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "start": "tsx src/app.ts",
-    "start:dev": "dotenvx run -f .env -- tsx watch src/app.ts"
+    "start:dev": "dotenvx run -f .env -- tsx watch src/app.ts",
+    "start:prod": "node dist/app.js"
   },
   "keywords": [],
   "author": "Artyom Ugryumov",

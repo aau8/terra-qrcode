@@ -1,5 +1,5 @@
 import express, { Request } from 'express';
-import { CanvasQR } from 'canvas-qr';
+import { CanvasQR } from './canvas-qr';
 
 const app = express();
 const PORT = process.env['PORT'] || 3000;
